@@ -72,7 +72,7 @@ bot.command('start', async (ctx) => {
     if (ctx.callbackQuery.data === 'GetRegister') {
         const inlineKeyboard = new InlineKeyboard().text('KİMLİĞİ DOĞRULA', 'CheckId');
         await ctx.replyWithPhoto('https://postimg.cc/BjdJzX6S');
-        await ctx.reply('1. İlk olarak, 1WIN <a href="https://1wdrwn.life/v3/landing-page/casino">CLICK</a> web sitesindeki bağlantı üzerinden kayıt olun.\n2. 2. Başarılı bir kayıttan sonra, sitedeki kimliğinizi kopyalayın (Sekme şarj ve sağ üst köşede kimliğiniz olacaktır).\n3. 3. Kimliği doğrulaya tıkladıktan ve kimliğinizi yazdıktan sonra', {
+        await ctx.reply('1. İlk olarak, 1WIN <a href="https://1wdrwn.life/v3/landing-page/casino#uihs">CLICK</a> web sitesindeki bağlantı üzerinden kayıt olun.\n2. 2. Başarılı bir kayıttan sonra, sitedeki kimliğinizi kopyalayın (Sekme şarj ve sağ üst köşede kimliğiniz olacaktır).\n3. 3. Kimliği doğrulaya tıkladıktan ve kimliğinizi yazdıktan sonra', {
             reply_markup: inlineKeyboard,
             parse_mode:'HTML'
         });
